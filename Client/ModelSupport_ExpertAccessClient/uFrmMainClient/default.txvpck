@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="enib6svpzxl_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ExpertAccessClient:uFrmMainClient.TEnvioDesktop">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="380,20,202,175" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TEnvioDesktop.FTCPDesktop" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TEnvioDesktop.FPrimeiroBMP" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TEnvioDesktop.FDiferencaoBMP" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TEnvioDesktop.Create(IdTCPClient.TIdTCPClient)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TEnvioDesktop.Execute()" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TEnvioDesktop.FSegundoBMP" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessClient:uFrmMainClient.TReceberMouse">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="400,440,212,175" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TReceberMouse.FTCPMouse" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TReceberMouse.FComandoMouse" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TReceberMouse.ProcesarComandoMouse()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TReceberMouse.Terminar(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TReceberMouse.Create(IdTCPClient.TIdTCPClient)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TReceberMouse.Execute()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessClient:uFrmMainClient.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.@unitclass.FormExpertRepMain" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessClient:uFrmMainClient.@unitclass.FormExpertRepMain" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessClient:uFrmMainClient.TReberTeclado">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="400,220,226,175" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TReberTeclado.FDado" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TReberTeclado.FTCPTeclado2" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TReberTeclado.FComandoTeclado" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TReberTeclado.ProcessarComandoTeclado()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TReberTeclado.Execute()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TReberTeclado.Create(IdTCPClient.TIdTCPClient)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,120,199,415" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.mmo1" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.pnl1" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.btnConectar" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.edtIP" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.edtPorta" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.idtcpclntDesktop" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.idtcpclntTeclado" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.idtcpclntMouse" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.btnConectarClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.FormActivate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.idhndlrstck1Status(System.TObject,IdComponent.TIdStatus,System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.idtcpclntDesktopDisconnected(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.idtcpclntMouseDisconnected(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.idtcpclntTecladoDisconnected(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.FId" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.FEnviaoDesktop" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.FReceberMouse" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.FReceberTeclado" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.Comprimir(System.Classes.TMemoryStream)" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.FEnviaoDesktop">
+        <property name="sourceAnchor" value="219,157" />
+        <property name="targetAnchor" value="380,157" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.FReceberMouse">
+        <property name="sourceAnchor" value="219,487" />
+        <property name="targetAnchor" value="400,487" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.FReceberTeclado">
+        <property name="sourceAnchor" value="219,307" />
+        <property name="targetAnchor" value="400,307" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.btnInicial" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessClient:uFrmMainClient.TFormExpertRepMain.btnInicialClick(System.TObject)" />
+    </reference>
+  </view>
+</nodeSet>

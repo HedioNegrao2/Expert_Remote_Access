@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.uBiblioteca" Type="System.String" Value="uBiblioteca" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ExpertAccessClient" Type="System.String" Value="ExpertAccessClient" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uFrmMainClient" Type="System.String" Value="uFrmMainClient" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.sndkey32" Type="System.String" Value="sndkey32" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uFormPrinciapalCliente" Type="System.String" Value="" Category="General" IsBrowsable="False" />
+</TgConfig>

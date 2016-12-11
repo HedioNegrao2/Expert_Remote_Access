@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/12/08 21:50:44.000.689,C:\TCC2\Server\ModelSupport_ExpertAccessServer\ZLib\default.txvpck=</Transaction>
+    <Transaction>2016/12/08 21:50:53.000.804,C:\TCC2\ZLibConst.pas=</Transaction>
+    <Transaction>2016/12/08 21:52:40.000.149,C:\TCC2\ZLib.pas=</Transaction>
+    <Transaction>2016/12/11 16:58:07.000.647,C:\TCC_Git\StreamManager.pas=</Transaction>
+    <Transaction>2016/12/11 16:59:50.000.866,C:\TCC_Git\Server\uBiblioteca.pas=</Transaction>
+    <Transaction>2016/12/11 17:00:25.000.045,=C:\TCC_Git\uBiblioteca.pas</Transaction>
+    <Transaction>2016/12/11 17:13:35.943,=C:\TCC_Git\Common\uBiblioteca.pas</Transaction>
+  </Transactions>
+</BorlandProject>

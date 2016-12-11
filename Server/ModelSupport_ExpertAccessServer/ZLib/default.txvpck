@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="j2o6s01ygbl_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:ZLib.TAlloc">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,95,36" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:ZLib.TCompressionLevel">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="124,1,129,113" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TCompressionLevel.clNone" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TCompressionLevel.clFastest" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TCompressionLevel.clDefault" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TCompressionLevel.clMax" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:ZLib.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.CompressBuf(System.Pointer,System.Integer,out@System.Pointer,out@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.DecompressBuf(System.Pointer,System.Integer,System.Integer,out@System.Pointer,out@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.DecompressToUserBuf(System.Pointer,System.Integer,System.Pointer,System.Integer)" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.zlib_version" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_NO_FLUSH" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_PARTIAL_FLUSH" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_SYNC_FLUSH" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_FULL_FLUSH" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_FINISH" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_OK" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_STREAM_END" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_NEED_DICT" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_ERRNO" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_STREAM_ERROR" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_DATA_ERROR" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_MEM_ERROR" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_BUF_ERROR" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_VERSION_ERROR" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_NO_COMPRESSION" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_BEST_SPEED" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_BEST_COMPRESSION" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_DEFAULT_COMPRESSION" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_FILTERED" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_HUFFMAN_ONLY" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_RLE" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_DEFAULT_STRATEGY" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_BINARY" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_ASCII" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_UNKNOWN" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.@unitclass.Z_DEFLATED" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.adler32()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.compressBound()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.crc32()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.deflateInit2_()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.deflateParams()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass._malloc(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass._free(System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass._memset(System.Pointer,System.Byte,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass._memcpy(System.Pointer,System.Pointer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.deflateInit_(ref@ZLib.TZStreamRec,System.Integer,System.Char*,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.deflate(ref@ZLib.TZStreamRec,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.deflateEnd(ref@ZLib.TZStreamRec)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.inflateInit_(ref@ZLib.TZStreamRec,System.Char*,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.inflate(ref@ZLib.TZStreamRec,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.inflateEnd(ref@ZLib.TZStreamRec)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.inflateReset(ref@ZLib.TZStreamRec)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.zlibAllocMem(System.Pointer,System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.zlibFreeMem(System.Pointer,System.Pointer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.CCheck(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.@unitclass.DCheck(System.Integer)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:ZLib.TFree">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="45,65,73,36" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:ZLib.TCustomZlibStream">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="272,1,168,207" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TCustomZlibStream.FStrm" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TCustomZlibStream.FStrmPos" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TCustomZlibStream.FOnProgress" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TCustomZlibStream.FZRec" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TCustomZlibStream.FBuffer" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TCustomZlibStream.Progress(System.TObject)" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:ZLib.TCustomZlibStream.OnProgress" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TCustomZlibStream.Create(System.Classes.TStream)" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:ZLib.TCustomZlibStream.FZRec">
+        <property name="sourceAnchor" value="344,208" />
+        <property name="targetAnchor" value="344,227" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:ZLib.TDecompressionStream">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="113,133,153,161" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TDecompressionStream.Create(System.Classes.TStream)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TDecompressionStream.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TDecompressionStream.Read(ref@,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TDecompressionStream.Write(,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TDecompressionStream.Seek(System.Integer,System.Word)" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:ZLib.TDecompressionStream.OnProgress" />
+      <reference referencedUin="delphi:l_gnt:src:ExpertAccessServer:ZLib.TDecompressionStream:ZLib.TCustomZlibStream">
+        <property name="sourceAnchor" value="266,170" />
+        <property name="targetAnchor" value="272,170" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:ZLib.TZStreamRec">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="285,227,119,293" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.next_in" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.avail_in" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.total_in" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.next_out" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.avail_out" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.total_out" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.msg" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.internal" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.zalloc" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.zfree" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.AppData" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.data_type" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.adler" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:ZLib.TZStreamRec.reserved" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:ZLib.TZStreamRec.zalloc">
+        <property name="sourceAnchor" value="285,302" />
+        <property name="targetAnchor" value="72,46" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:ZLib.TZStreamRec.zfree">
+        <property name="sourceAnchor" value="285,307" />
+        <property name="targetAnchor" value="97,101" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:ZLib.TCompressionStream">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="106,313,173,191" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TCompressionStream.GetCompressionRate()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TCompressionStream.Create(ZLib.TCompressionLevel,System.Classes.TStream)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TCompressionStream.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TCompressionStream.Read(ref@,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TCompressionStream.Write(,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:ZLib.TCompressionStream.Seek(System.Integer,System.Word)" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:ZLib.TCompressionStream.CompressionRate" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:ZLib.TCompressionStream.OnProgress" />
+      <reference referencedUin="delphi:l_gnt:src:ExpertAccessServer:ZLib.TCompressionStream:ZLib.TCustomZlibStream">
+        <property name="sourceAnchor" value="275,312" />
+        <property name="targetAnchor" value="275,207" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

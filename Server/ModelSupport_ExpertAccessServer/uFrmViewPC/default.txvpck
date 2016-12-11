@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="18sf3n0d1a4cc0pjo_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uFrmViewPC.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.@unitclass.FormViewPC" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:uFrmViewPC.@unitclass.FormViewPC" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uFrmViewPC.TFormViewPC">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,182,642" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.mmo1" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.lblTeste" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.tmr1" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.scrlbx1" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.img1" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.FormClose(System.TObject,ref@System.UITypes.TCloseAction)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.img1MouseDown(System.TObject,System.UITypes.TMouseButton,TShiftState,System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.img1MouseMove(System.TObject,TShiftState,System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.img1MouseUp(System.TObject,System.UITypes.TMouseButton,TShiftState,System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.img1DblClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.tmr1Timer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.FormResize(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.img1ContextPopup(System.TObject,System.Types.TPoint,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.FContexto" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.FThreadPC" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.Fx" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.FY" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.FContextoMause" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.FContextoTeclado" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.FId" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.SetContexto(IdContext.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.Setx(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.SetY(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.SetContextoMause(IdContext.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.SetContextoTeclado(IdContext.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.SetId(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.EnviaDadosMouse(ref@uUtility.TComandoMouse)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.EnviarDadoTeclado()" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.Id" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.cx" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.cY" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.ContextoDesktop" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.ContextoTeclado" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.ContextoMause" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.Descomprimir(System.Classes.TMemoryStream)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.Iniciar()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.Ajustar()" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:uFrmViewPC.TFormViewPC.FThreadPC">
+        <property name="sourceAnchor" value="192,169" />
+        <property name="targetAnchor" value="360,169" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uFrmViewPC.TWiewPc">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="360,60,195,235" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TWiewPc.FContexto" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TWiewPc.Fform" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TWiewPc.FLinha" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TWiewPc.FPrimeiroBMP" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TWiewPc.FSegundoBMP" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmViewPC.TWiewPc.FDiferencaBMP" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TWiewPc.Adicianar()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TWiewPc.Create(IdContext.TIdContext,uFrmViewPC.TFormViewPC)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TWiewPc.Execute()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmViewPC.TWiewPc.Destroy()" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:uFrmViewPC.TWiewPc.Fform">
+        <property name="sourceAnchor" value="360,177" />
+        <property name="targetAnchor" value="192,177" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

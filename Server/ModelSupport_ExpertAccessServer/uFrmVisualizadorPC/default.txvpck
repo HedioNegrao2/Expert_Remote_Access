@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="ce4pe8d9ckh04f9yr_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uFrmVisualizadorPC.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:uFrmVisualizadorPC.@unitclass.FrmVisualizadorPC" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.@unitclass.FrmVisualizadorPC" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,195,235" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.Fform">
+        <property name="sourceAnchor" value="205,127" />
+        <property name="targetAnchor" value="224,127" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.FContexto" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.Fform" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.FLinha" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.FPrimeiroBMP" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.FSegundoBMP" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.FDiferencaBMP" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.Adicianar()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.Execute()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TWiewPc.Create(uFrmVisualizadorPC.TIdContext,uFrmVisualizadorPC.TFrmVisualizadorPC)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="224,1,182,657" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.FThreadPC">
+        <property name="sourceAnchor" value="224,119" />
+        <property name="targetAnchor" value="205,119" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.mmoLog" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.lblTeste" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.tmrMonitoraTeclado" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.scrlbx1" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.imgDesktop" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.FContexto" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.FThreadPC" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.Fx" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.FY" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.FContextoMause" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.FContextoTeclado" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.FId" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.Setx(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.SetY(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.SetId(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.EnviaDadosMouse(ref@uBiblioteca.TComandoMouse)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.EnviarDadoTeclado()" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.Id" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.cx" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.cY" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.ContextoDesktop" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.ContextoTeclado" />
+      <reference referencedUin="delphi:e_property:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.ContextoMause" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.Iniciar()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.Ajustar()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.FormClose(uFrmVisualizadorPC.TObject,ref@uFrmVisualizadorPC.TCloseAction)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.imgDesktopMouseDown(uFrmVisualizadorPC.TObject,uFrmVisualizadorPC.TMouseButton,uFrmVisualizadorPC.TShiftState,System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.imgDesktopMouseMove(uFrmVisualizadorPC.TObject,uFrmVisualizadorPC.TShiftState,System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.imgDesktopMouseUp(uFrmVisualizadorPC.TObject,uFrmVisualizadorPC.TMouseButton,uFrmVisualizadorPC.TShiftState,System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.imgDesktopDblClick(uFrmVisualizadorPC.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.tmrMonitoraTecladoTimer(uFrmVisualizadorPC.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.FormResize(uFrmVisualizadorPC.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.imgDesktopContextPopup(uFrmVisualizadorPC.TObject,uFrmVisualizadorPC.TPoint,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.SetContexto(uFrmVisualizadorPC.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.SetContextoMause(uFrmVisualizadorPC.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.SetContextoTeclado(uFrmVisualizadorPC.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.Descomprimir(uFrmVisualizadorPC.TMemoryStream)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmVisualizadorPC.TFrmVisualizadorPC.FormCreate(uFrmVisualizadorPC.TObject)" />
+    </reference>
+  </view>
+</nodeSet>

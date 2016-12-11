@@ -1,0 +1,34 @@
+[Stats]
+<<<<<<< HEAD
+<<<<<<< HEAD
+EditorSecs=4176
+DesignerSecs=333
+InspectorSecs=167
+CompileSecs=213004
+OtherSecs=402
+StartTime=02/10/2015 20:47:56
+RealKeys=0
+EffectiveKeys=0
+DebugSecs=57946
+=======
+EditorSecs=3115
+DesignerSecs=145
+InspectorSecs=119
+CompileSecs=113575
+OtherSecs=76
+StartTime=02/10/2015 20:47:56
+RealKeys=0
+EffectiveKeys=0
+DebugSecs=26678
+>>>>>>> b683aedd2cb553e93e5279180262004c20dd1686
+=======
+EditorSecs=2872
+DesignerSecs=232
+InspectorSecs=86
+CompileSecs=89523
+OtherSecs=176
+StartTime=02/10/2015 20:47:56
+RealKeys=0
+EffectiveKeys=0
+DebugSecs=23679
+>>>>>>> 376739d4015e2512a8ca4945c00d5148061ce9d0

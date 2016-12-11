@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/05/01 17:16:51.000.266,=C:\tcc2_lieliane\TCC2\Client\ModelSupport_ExpertAccessClient\default.txaPackage</Transaction>
+    <Transaction>2016/05/01 17:17:08.000.839,=C:\tcc2_lieliane\TCC2\Client\ModelSupport_ExpertAccessClient\default.txvpck</Transaction>
+    <Transaction>2016/05/01 17:17:11.000.657,=C:\tcc2_lieliane\TCC2\Client\ModelSupport_ExpertAccessClient\ExpertAccessClient\default.txvpck</Transaction>
+    <Transaction>2016/05/01 17:17:11.000.576,=C:\tcc2_lieliane\TCC2\Client\ModelSupport_ExpertAccessClient\uBiblioteca\default.txvpck</Transaction>
+    <Transaction>2016/05/01 17:17:13.000.124,=C:\tcc2_lieliane\TCC2\Client\ModelSupport_ExpertAccessClient\uBiblioteca\default.txaPackage</Transaction>
+    <Transaction>2016/05/01 17:26:15.000.154,=C:\tcc2_lieliane\TCC2\Client\ModelSupport_ExpertAccessClient\ExpertAccessClient\default.txaPackage</Transaction>
+    <Transaction>2016/05/01 17:26:17.000.861,=C:\tcc2_lieliane\TCC2\Client\ModelSupport_ExpertAccessClient\uFrmMainClient\default.txaPackage</Transaction>
+    <Transaction>2016/05/01 17:26:17.000.551,=C:\tcc2_lieliane\TCC2\Client\ModelSupport_ExpertAccessClient\uFrmMainClient\default.txvpck</Transaction>
+    <Transaction>2016/05/01 18:45:56.000.394,C:\tcc2_lieliane\TCC2\Client\uFormPrinciapalCliente.pas=C:\tcc2_lieliane\TCC2\Client\uFrmMainClient.pas</Transaction>
+    <Transaction>2016/05/01 18:45:56.000.394,C:\tcc2_lieliane\TCC2\Client\uFormPrinciapalCliente.dfm=C:\tcc2_lieliane\TCC2\Client\uFrmMainClient.dfm</Transaction>
+    <Transaction>2016/05/01 18:48:31.000.650,=C:\tcc2_lieliane\TCC2\Client\ModelSupport_ExpertAccessClient\uFormPrinciapalCliente\default.txaPackage</Transaction>
+    <Transaction>2016/05/01 18:49:38.000.427,=C:\tcc2_lieliane\TCC2\Client\ModelSupport_ExpertAccessClient\uFormPrinciapalCliente\default.txvpck</Transaction>
+    <Transaction>2016/12/11 16:55:24.000.259,C:\TCC_Git\StreamManager.pas=</Transaction>
+    <Transaction>2016/12/11 17:14:18.367,=C:\TCC_Git\Common\uBiblioteca.pas</Transaction>
+  </Transactions>
+</BorlandProject>

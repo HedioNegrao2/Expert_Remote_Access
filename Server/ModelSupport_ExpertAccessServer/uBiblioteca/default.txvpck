@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="emill1sc7za9syeap_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uBiblioteca.TComandoMouse">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,172,158" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TComandoMouse.x" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TComandoMouse.y" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TComandoMouse.BotaoDireito" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TComandoMouse.TipoEvento" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TComandoMouse.Alterado" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:uBiblioteca.TComandoMouse.TipoEvento">
+        <property name="sourceAnchor" value="182,69" />
+        <property name="targetAnchor" value="201,69" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uBiblioteca.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uBiblioteca.TEventoMouse">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="201,1,101,128" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TEventoMouse.mMove" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TEventoMouse.mDown" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TEventoMouse.mUp" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TEventoMouse.mCliqueDuplo" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TEventoMouse.mClique" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uBiblioteca.TBliblioteca">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="201,148,160,159" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uBiblioteca.TBliblioteca.SendBuffer(IdTCPClient.TIdTCPClient,System.Byte[])" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uBiblioteca.TBliblioteca.SendBuffer(IdContext.TIdContext,System.Byte[])" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uBiblioteca.TBliblioteca.ReceiveBuffer(IdContext.TIdContext,ref@System.Byte[])" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uBiblioteca.TBliblioteca.ReceiveBuffer(IdTCPClient.TIdTCPClient,ref@System.Byte[])" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uBiblioteca.TBliblioteca.SendStream(IdTCPClient.TIdTCPClient,System.Classes.TStream)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uBiblioteca.TBliblioteca.ReceiveStream(IdContext.TIdContext,ref@System.Classes.TStream)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uBiblioteca.TComando">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="399,1,189,128" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TComando.TipoComando" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TComando.Texto" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TComando.Numero" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:uBiblioteca.TComando.TipoComando">
+        <property name="sourceAnchor" value="450,129" />
+        <property name="targetAnchor" value="450,148" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uBiblioteca.TComandoTeclado">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="32,187,159,113" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TComandoTeclado.CodigoTecla" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TComandoTeclado.TeclaAuxiliar" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uBiblioteca.TTipoComando">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="399,148,103,128" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TTipoComando.tpTeclado" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TTipoComando.tpMouse" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TTipoComando.tpDesktop" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TTipoComando.tpArquivo" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uBiblioteca.TTipoComando.tpTexto" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.ZLib" Type="System.String" Value="ZLib" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uFrmServidorPrincipal" Type="System.String" Value="uFrmServidorPrincipal" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uFrmVisualizadorPC" Type="System.String" Value="uFrmVisualizadorPC" Category="General" IsBrowsable="False" />
+</TgConfig>

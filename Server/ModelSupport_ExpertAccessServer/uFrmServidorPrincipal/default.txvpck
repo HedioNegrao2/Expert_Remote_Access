@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="66d1suijrkp_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uFrmServidorPrincipal.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.@unitclass.FormMainServer" />
+      <reference referencedUin="delphi:l_ast:src:ExpertAccessServer:uFrmServidorPrincipal.@unitclass.FormMainServer" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="204,242,186,400" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.pnl1" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.pnl2" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.lvClientes" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.idTCPServidor" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.mmoLog" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.pnl3" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.edtIP" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.stat" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.edtPorta" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.btnAtivar" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.FLista" />
+      <reference referencedUin="delphi:e_field:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.FId" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.Ajustar()" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.btnAtivarClick(uFrmServidorPrincipal.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.idTCPServidorStatus(uFrmServidorPrincipal.TObject,uFrmServidorPrincipal.TIdStatus,System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.idTCPServidorExecute(uFrmServidorPrincipal.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.idTCPServidorConnect(uFrmServidorPrincipal.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.FormCreate(uFrmServidorPrincipal.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.FormClose(uFrmServidorPrincipal.TObject,ref@uFrmServidorPrincipal.TCloseAction)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.idTCPServidorDisconnect(uFrmServidorPrincipal.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.lvClientesClick(uFrmServidorPrincipal.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.btnAtivarClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.idTCPServidorStatus(System.TObject,IdComponent.TIdStatus,System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.idTCPServidorExecute(IdContext.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.idTCPServidorConnect(IdContext.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.FormClose(System.TObject,ref@System.UITypes.TCloseAction)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.idTCPServidorDisconnect(IdContext.TIdContext)" />
+      <reference referencedUin="delphi:e_method:src:ExpertAccessServer:uFrmServidorPrincipal.TFormMainServer.lvClientesClick(System.TObject)" />
+    </reference>
+  </view>
+</nodeSet>
